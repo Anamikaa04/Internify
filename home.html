@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Internship Portal</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="CSS/homeStyle.css"/>
+    </head>
+
+    <body>
+        <section class="header">
+            <nav>
+                <a href="home.html"><img src="images/LOGO1.png" alt="Logo" class="logo"></a>
+                <div class="nav-links" id="nav-links">
+                    <i class="fa fa-solid fa-bars" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">Internships</a></li>
+                        <li><a href="#">Webinars</a></li>
+                        <li><a href="#">Competitions</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+            
+            <div class="text-box">
+                <h1>Welcome to our Internship Portal</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    <br/>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                </p>
+                <a href="#" class="explore-btn">Explore</a>
+            </div>
+        </section>
+
+        <!--------------services offered------------>
+
+        <section class="services">
+            <h1>Explore Opportunities</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+
+            <div class="row">
+                <div class="service-col">
+                <h3>Full-Time Jobs</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+
+                <div class="service-col">
+                <h3>Internships</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+
+                <div class="service-col">
+                <h3>Competitions</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+
+                <div class="service-col">
+                <h3>Webinars</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+
+        </section>
+
+        <!------------Top Recruiters Image Gallery---------->
+        <section class="recruiter">
+            <h1>Our Top Recruiters</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+
+            <div class="gallerybox">
+                <div class="imgbox">
+                    <img src="images/jp-morgan.svg" alt="JP Morgan">
+
+                    <img src="images/deloitte-2.svg" alt="Deloitte">
+
+                    <img src="images/bain-company-logo.svg" alt="Baine & Company">
+
+                    <img src="images/logo-amazon.svg" alt="Amazon">
+
+                    <img src="images/flipkart.svg" alt="Flipkart">
+
+                    <img src="images/texas-instruments-1.svg" alt="Texas Instruments">
+                </div>
+            </div>
+
+        </section>
+
+        <!----------------Top Stories------------->
+        <section class="stories">
+            <h1>Earning Excellence</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+
+            <div class="row">
+                <div class="stories-col">
+                    <img src="images/DJV MAR 973-10.jpg" alt="Woman in suit">
+                    <h3>Name</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="stories-col">
+                    <img src="images/384861-PCGT1Q-467.jpg" alt="Man in suit">
+                    <h3>Name</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="stories-col">
+                    <img src="images/DJV MAR 973-10.jpg" alt="Woman in suit">
+                    <h3>Name</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+
+        </section>
+
+        <!--------------------Footer----------------->
+
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                <br/>Ut enim ad minim veniam, quis nostrud exercitation 
+                ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+
+            <p>Made with <i class="fa fa-heart-o"></i> by Anamika and Niti</p>
+
+        </section>
+
+        <!---------JavaScript for Toggle Menu--------->
+        <script>
+
+            var navLinks=document.getElementById("nav-links")
+
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+
+        </script>
+
+    </body>
+</html>
